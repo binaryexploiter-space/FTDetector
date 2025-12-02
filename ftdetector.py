@@ -86,7 +86,7 @@ def virustotal_check():
 	api=""
 	with open('virustotalapi.txt','r') as f:
 		api = f.read().strip()
-	if api=="" or api=="replace_virustotal_api_key_here":
+	if api=="" or api=="YOUR_API_KEY_HERE":
 		print(f"[-] You have not provided virustotal api key in virustotalapi.txt.")
 		exit()
 	headers = {"accept": "application/json", "X-Apikey": api}
