@@ -18,7 +18,7 @@ def extmatch(file):
 		print(f"Couldn't Detect File Extension.")
 
 name=input("Enter file name: ")
-hl = 25
+hl = 30
 ext=extmatch(name)
 
 
