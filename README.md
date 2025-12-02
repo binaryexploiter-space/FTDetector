@@ -115,4 +115,8 @@ dictionary in the script.
 
 ------------------------------------------------------------------------
 
-### Created By **binaryexploiter**
+## 📝 License
+
+<b>License © 2025 Oshan Ravindu</b>
+
+## ⭐ If you find this tool useful, give it a star on GitHub!
