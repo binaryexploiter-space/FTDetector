@@ -171,3 +171,20 @@ FD377A585A00|xz/tar.xz|XZ compression utility using LZMA2 compression
 49536328|cab|InstallShield CAB Archive File
 4B57414A|??_|Windows 3.1x Compressed File
 535A4444|??_|Windows 9x Compressed File
+41542654464F524D????????444A56|djvu/djv|DjVu document. The following byte is either 55 (U) for single-page or 4D (M) for multi-page documents.
+52494646????????43444441|cda|.cda file
+464C56|flv|Flash Video File
+5A4F4F|zoo|Zoo (File Format)
+50310A|pbm|Portable bitmap ASCII
+50340A|pbm|Portable bitmap binary
+50320A|pgm|Portable Gray Map ASCII
+50350A|pgm|Portable Gray Map binary
+50330A|ppm|Portable Pixmap ASCII
+50360A|ppm|Portable Pixmap binary
+D7CDC69A|wmf|Windows Metafile
+67696D7020786366|xcf|XCF (file format)
+2F2A2058504D202A2F|xpm|X PixMap
+414646|aff|Advanced Forensics Format
+52494646????????41434F4E|ani|Animated cursor
+52494646????????514C434D|qcp|Qualcomm PureVoice file format
+3C3C3C204F7261636C6520564D205669727475616C426F78204469736B20496D616765203E3E3E|vdi|VirtualBox Virtual Hard Disk file format
