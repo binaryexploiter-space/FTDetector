@@ -5,4 +5,19 @@ FFD8FFE0|jpg|JPEG raw or in the JFIF or Exif file format
 02005a57525400000000000000000000|cwk|Claris Works word processing doc
 0000020006040600080000000000|wk1|Lotus 1-2-3 spreadsheet (v1) file
 00001A000010040000000000|wk3|Lotus 1-2-3 spreadsheet (v3) file
+00001A000210040000000000|wk4/wk5|Lotus 1-2-3 spreadsheet (v4, v5) file
+00001A00051004|123|Lotus 1-2-3 spreadsheet (v9) file
+000003F3||Amiga Hunk executable file
+00004D4D585052|qxd|Quark Express document
+50575333|psafe3|Password Gorilla Password Database
+D4C3B2A1|pcap|Libpcap File Format (little-endian)
+A1B2C3D4|pcap|Libpcap File Format (big-endian)
+4D3CB2A1|pcap|Libpcap File Format (nanosecond-resolution) [little-endian]
+A1B23C4D|pcap|Libpcap File Format (nanosecond-resolution) [big-endian]
+0A0D0D0A|pcapng|PCAP Next Generation Dump File Format
+EDABEEDB|rpm|RedHat Package Manager (RPM) package
+53503031|bin|Amazon Kindle Update Package
+49574144|wad|internal WAD (main resource file of Doom)
+00000100|ico|Computer icon encoded in ICO file format
+69636e73|icns|Apple Icon Image Format
 
