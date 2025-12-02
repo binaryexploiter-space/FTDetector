@@ -81,4 +81,7 @@ FFFE|txt/others|UTF-16LE byte order mark, commonly seen in text files.
 DD736673||UTF-EBCDIC byte order mark for text
 255044462D|pdf|PDF document
 25215053|ps|PostScript document
-
+495453460300000060000000|chm|MS Windows HtmlHelp Data
+3F5F|hlp|Windows 3.x/95/98 Help file
+494433|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+4344303031|iso|ISO9660 CD/DVD image file
