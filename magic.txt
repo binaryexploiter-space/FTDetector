@@ -85,3 +85,12 @@ DD736673||UTF-EBCDIC byte order mark for text
 3F5F|hlp|Windows 3.x/95/98 Help file
 494433|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
 4344303031|iso|ISO9660 CD/DVD image file
+424D|bmp/dib|BMP file, a bitmap format used mostly in the Windows world
+4344303031|cdi|CD-i CD image file
+4E4553|nes|Nintendo Entertainment System image file
+A03241A0A0A0|d64|Commodore 64 1541 disk image (D64 format)
+4753522D31353431|g64|Commodore 64 1541 disk image (G64 format)
+A03344A0A0|d81|Commodore 64 1581 disk image (D81 format)
+433634207461706520696D6167652066696C65|t64|Commodore 64 tape image
+43363420434152545249444745202020|crt|Commodore 64 cartridge image
+53494D504C4520203D202020202020202020202020202020202020202054|fits|Flexible Image Transport System (FITS)
