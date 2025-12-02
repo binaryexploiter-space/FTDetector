@@ -1,4 +1,8 @@
 FFD8FFE0|jpg|JPEG raw or in the JFIF or Exif file format
 89504E470D0A1A0A|png|Image encoded in the Portable Network Graphics format
 5A4D|exe|DOS ZM executable and its descendants (rare)
- 
+2321||Script or data to be passed to the program following the shebang (#!)
+02005a57525400000000000000000000|cwk|Claris Works word processing doc
+0000020006040600080000000000|wk1|Lotus 1-2-3 spreadsheet (v1) file
+00001A000010040000000000|wk3|Lotus 1-2-3 spreadsheet (v3) file
+
