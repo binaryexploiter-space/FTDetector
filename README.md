@@ -29,7 +29,7 @@ FTDetector calculates the following: - **MD5** - **SHA-256**
 
 VirusTotal responses can be saved automatically as:
 
-    vt_<sha256>.json
+    file_<randint>.json
 
 ### 🖥️ Interactive Usage
 
