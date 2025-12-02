@@ -94,3 +94,80 @@ A03344A0A0|d81|Commodore 64 1581 disk image (D81 format)
 433634207461706520696D6167652066696C65|t64|Commodore 64 tape image
 43363420434152545249444745202020|crt|Commodore 64 cartridge image
 53494D504C4520203D202020202020202020202020202020202020202054|fits|Flexible Image Transport System (FITS)
+D0CF11E0A1B11AE1|doc/xls/ppt/msi/msg|Compound File Binary Format, a container format defined by Microsoft COM. It can contain the equivalent of files and directories. It is used by Windows Installer and for documents in older versions of Microsoft Office. It can be used by other programs as well that rely on the COM and OLE API's.
+6465780A30333500|dex|Dalvik Executable
+4B444D|vmdk|VMDK files
+23204469736B2044657363726970746F|vmdk|VMware 4 Virtual Disk description file (split disk)
+43723234|crx|Google Chrome extension or packaged app
+6B6F6C79|dmg|Apple Disk Image file
+41474433|fh8|FreeHand 8 document
+78617221|xar|eXtensible ARchive format
+504D4F43434D4F43|dat|Windows Files And Settings Transfer Repository See also USMT 3.0 (Win XP) and USMT 4.0 (Win 7) User Guides 
+4E45531A|nes|Nintendo Entertainment System ROM file
+7573746172003030|tar|tar archive
+7573746172202000|tar|tar archive
+4F4152??|oar|OAR file archive format, where ?? is the format version.
+746F7833|tox|Open source portable voxel file (tox3)
+44434D015041333050413330||Windows Update Binary Delta Compression file
+377ABCAF271C|7z|7-Zip File Format
+1F8B|gz/tar.gz|GZIP compressed file
+FD377A585A00|xz/tar.xz|XZ compression utility using LZMA2 compression 
+4D534346|cab|Microsoft Cabinet file
+535A444488F02733|??_|Microsoft compressed file in Quantum format, used prior to Windows XP. File can be decompressed using Extract.exe or Expand.exe distributed with earlier versions of Windows. After compression, the last character of the original filename extension is replaced with an underscore, e.g. ‘Setup.exe’ becomes ‘Setup.ex_’.
+464C4946|flif|Free Lossless Image Format
+1A45DFA3|mkv, mka, mks, mk3d, webm|Matroska media container, including WebM
+4D494C20|stg|"SEAN : Session Analysis" Training file. Also used in compatible software "Rpw : Rowperfect for Windows" and "RP3W : ROWPERFECT3 for Windows".
+2D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D|crt/pem|PEM encoded X.509 certificate
+2D2D2D2D2D424547494E20434552544946494341544520524551554553542D2D2D2D2D|csr/pem|PEM encoded X.509 Certificate Signing Request
+2D2D2D2D2D424547494E2050524956415445204B45592D2D2D2D2D|key/pem|PEM encoded X.509 PKCS#8 private key
+2D2D2D2D2D424547494E204453412050524956415445204B45592D2D2D2D2D|key/pem|PEM encoded X.509 PKCS#1 DSA private key
+2D2D2D2D2D424547494E205253412050524956415445204B45592D2D2D2D2D|key/pem|PEM encoded X.509 PKCS#1 RSA private key
+50755454592D557365722D4B65792D46696C652D323A|ppk|PuTTY private key file version 2
+50755454592D557365722D4B65792D46696C652D333A|ppk|PuTTY private key file version 3
+2D2D2D2D2D424547494E204F50454E5353482050524956415445204B45592D2D2D2D2D||OpenSSH private key file
+2D2D2D2D2D424547494E2053534832204B45592D2D2D2D2D|pub|OpenSSH public key file
+4449434D|dcm|DICOM Medical File Format
+774F4646|woff|WOFF File Format 1.0
+774F4632|woff2|WOFF File Format 2.0
+3C3F786D6C20|xml|eXtensible Markup Language (UTF-8 or other 8-bit encodings)
+3C003F0078006D006C0020|xml|eXtensible Markup Language (UTF-16LE)
+003C003F0078006D006C0020|xml|eXtensible Markup Language (UTF-16BE)
+3C0000003F000000780000006D0000006C00000020000000|xml|eXtensible Markup Language (UTF-32LE)
+0000003C0000003F000000780000006D0000006C00000020|xml|eXtensible Markup Language (UTF-32BE)
+4C6FA7949340|xml|eXtensible Markup Language (EBCDIC)
+0061736D|wasm|WebAssembly binary format
+213C617263683E0A|deb|linux deb file
+52494646????????57454250|webp|Google WebP image file, where ?? ?? ?? ?? is the file size. More information on WebP File Header
+27051956||U-Boot / uImage. Das U-Boot Universal Boot Loader.
+7B5C72746631|rtf|Rich Text Format
+000001BA|m2p/vob/mpg/mpeg|MPEG Program Stream (MPEG-1 Part 1 (essentially identical) and MPEG-2 Part 1)
+000001B3|mpg/mpeg|MPEG-1 video and MPEG-2 video (MPEG-1 Part 2 and MPEG-2 Part 2)
+6674797069736F6D|mp4|ISO Base Media file (MPEG-4)
+667479704D534E56|mp4|MPEG-4 video file
+7801|zlib|No Compression (no preset dictionary)
+785E|zlib|Best speed (no preset dictionary) 
+789C|zlib|Default Compression (no preset dictionary)
+78DA|zlib|Best Compression (no preset dictionary)
+7820|zlib|No Compression (with preset dictionary)
+787D|zlib|Best speed (with preset dictionary)
+78BB|zlib|Default Compression (with preset dictionary)
+78F9|zlib|Best Compression (with preset dictionary)
+3C726F626C6F7821|rbxl|Roblox place file
+62767832|lzfse|LZFSE - Lempel-Ziv style data compression algorithm using Finite State Entropy coding. OSS by Apple.
+4F5243|orc|Apache ORC (Optimized Row Columnar) file format
+4F626A01|avro|Apache Avro binary file format
+53455136|rc|RCFile columnar file format
+65877856|p25/obt|PhotoCap Object Templates
+5555AAAA|pcv|PhotoCap Vector
+785634|pbt, pdt, pea, peb, pet, pgt, pict, pjt, pkt, pmt|PhotoCap Template
+50415231||Apache Parquet columnar file format
+1B4C7561|luac|Lua bytecode
+5B5A6F6E655472616E736665725D|Identifier|Microsoft Zone Identifier for URL Security Zones
+52656365697665643A|eml|Email Message var5
+20020162A01EAB0702000000|tde|Tableau Datasource
+3748030200000000583530394B4559|kdb|KDB file
+85????03|pgp|PGP File
+2A2A4143452A2A|ace|ACE (compressed file format)
+49536328|cab|InstallShield CAB Archive File
+4B57414A|??_|Windows 3.1x Compressed File
+535A4444|??_|Windows 9x Compressed File
