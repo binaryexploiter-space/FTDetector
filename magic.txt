@@ -240,3 +240,4 @@ E00100EA||Ion (serialization format) binary encoding
 52494646????????524d4d50|mmm|MacroMind Multimedia Movie or Microsoft Multimedia Movie
 4153544d2d453537|e57|ASTM E57 3D file format
 aaaaaaaa|sys|Crowdstrike Channel File
+4D4C5649|MLV|Magic Lantern Video file
