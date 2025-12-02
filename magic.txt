@@ -188,3 +188,55 @@ D7CDC69A|wmf|Windows Metafile
 52494646????????41434F4E|ani|Animated cursor
 52494646????????514C434D|qcp|Qualcomm PureVoice file format
 3C3C3C204F7261636C6520564D205669727475616C426F78204469736B20496D616765203E3E3E|vdi|VirtualBox Virtual Hard Disk file format
+636F6E6563746978|vhd|Windows Virtual PC Virtual Hard Disk file format
+7668647866696C65|vhdx|Windows Virtual PC Windows 8 Virtual Hard Disk file format
+49735A21|isz|Compressed ISO image
+444141|daa|Direct Access Archive PowerISO
+4C664C65|evt|Windows Event Viewer file format
+456C6646696C65|evtx|Windows Event Viewer XML file format
+73646266|sdb|Windows customized database
+504D4343|grp|Windows 3.x Program Manager Program Group file format
+4B434D53|icm|ICC profile
+72656766|dat/hiv|Windows Registry file
+2142444E|pst|Microsoft Outlook Personal Storage Table file
+424C454E444552|blend|Blender File Format
+0000000C4A584C200D0A870A|jxl|Image encoded in the JPEG XL format
+0001000000|ttf, tte, dfont|TrueType font
+4F54544F|otf|OpenType font
+23254D6F64756C65||Modulefile for Environment Modules
+4D5357494D000000D000000000|wim, swm, esd|Windows Imaging Format file
+212D31534C4F421F|slob|Slob (sorted list of Object storages) is a read-only, compressed data store with dictionary-like interface
+ACED||Serialized Java Data
+437265617469766520566F6963652046696C651A1A00|voc|Creative Voice file
+524b4d43323130||Vormetric Encryption DPM Version 2.1 Header
+000100004D534953414D204461746162617365|mny|Microsoft Money file
+000100005374616E64617264204A6574204442|mdb|Microsoft Access Database
+01FF02040302|drw|Micrografx vector graphic file
+02647373|dss|Digital Speech Standard (Olympus, Grundig, & Phillips) v2
+03647373|dss|Digital Speech Standard (Olympus, Grundig, & Phillips) v3
+0300000041505052|adx|Approach index file
+0764743264647464|dtd|DesignTools 2D Design file
+0A166F72672E626974636F696E2E7072|wallet|MultiBit Bitcoin wallet file
+0D444F43|doc|DeskMate Document file
+0E4E65726F49534F|nri|Nero CD Compilation
+23204D6963726F736F667420446576656C6F7065722053747564696F|dsp|Microsoft Developer Studio project file
+232153494C4B0A|sil|Audio compression format developed by Skype
+23407E5E|vbe|VBScript Encoded script
+233F52414449414E43450A|hdr|Radiance High Dynamic Range image file
+0DF01DC0|cdb|MikroTik WinBox Connection Database (Address Book)
+234558544D3355|m3u/m3u8|Multimedia playlist
+6E693100|hdr|Header file of a .hdr/.img pair in NIfTI format, used extensively in biomedical imaging.
+2d2d2d2d2d424547494e20504750205055424c4943204b454920424c4f434b2d2d2d2d2d|asc|Armored PGP public key
+3a4261736520|cnt|Windows 3.x - Windows 95 Help Contents
+52494646????????5644524d|vdr|VirtualDub
+4455434B||DuckDB database file (source: Source code)
+4C504B5348485248|journal|journald log file
+E00100EA||Ion (serialization format) binary encoding
+52594646????????54524944|trd|TrID
+52494646????????73687734|shw|Corel SHOW! 4.0
+52494646????????73687735|shw|Corel SHOW! 5.0
+52494646????????73687235|shr|Corel SHOW! 5.0 player
+52494646????????73686235|shb|Corel SHOW! 5.0 background
+52494646????????524d4d50|mmm|MacroMind Multimedia Movie or Microsoft Multimedia Movie
+4153544d2d453537|e57|ASTM E57 3D file format
+aaaaaaaa|sys|Crowdstrike Channel File
