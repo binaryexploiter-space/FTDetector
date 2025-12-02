@@ -20,4 +20,23 @@ EDABEEDB|rpm|RedHat Package Manager (RPM) package
 49574144|wad|internal WAD (main resource file of Doom)
 00000100|ico|Computer icon encoded in ICO file format
 69636e73|icns|Apple Icon Image Format
-
+53514C69746520666F726D6174203300|sqlitedb/sqlite/db|SQLite Database
+000000000000000000000000000000000000000000000000|PDB|PalmPilot Database/Document File
+BEBAFECA|DBA|Palm Desktop Calendar Archive
+00014244|DBA|Palm Desktop To Do Archive
+00014454|TDA|Palm Desktop Calendar Archive
+54444624|TDF$|Telegram Desktop File
+54444546|TDEF|Telegram Desktop Encrypted File
+00010000||Palm Desktop Data File (Access format)
+667479703367|3gp/3g2|3rd Generation Partnership Project 3GPP and 3GPP2 multimedia files
+6674797068656963667479706d|heic|High Efficiency Image Container (HEIC)
+1F9D|z/tar.z|compressed file (often tar zip) using Lempel-Ziv-Welch algorithm
+1FA0|z/tar.z|Compressed file (often tar zip) using LZH algorithm
+2D6C68302D|lzh|Lempel Ziv Huffman archive file Method 0 (No compression)
+2D6C68352D|lzh|Lempel Ziv Huffman archive file Method 5 (8 KiB sliding window)
+4241434B4D494B454449534B|bac|AmiBack Amiga Backup data file
+494E4458|idx|AmiBack Amiga Backup index file
+62706C697374|plist|Binary Property List file
+425A68|bz2|Compressed file using Bzip2 algorithm
+474946383761|gif|Image file encoded in the Graphics Interchange Format (GIF) [GIF87a]
+474946383961|gif|Image file encoded in the Graphics Interchange Format (GIF) [GIF89a]
