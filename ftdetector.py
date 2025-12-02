@@ -12,10 +12,10 @@ def extmatch(file):
 			ext = name[0:i]
 			break
 	if t:
-		print(f"File Extension (File Type By Extension): {ext[-1::-1]}")
+		print(f"[+] File Extension: {ext[-1::-1]}")
 		return f"{ext[-1::-1]}"
 	else:
-		print(f"Couldn't Detect File Extension.")
+		print(f"[-] File Extension: Unable to Detect File Extension")
 
 name=input("Enter file name: ")
 hl = 40
@@ -34,7 +34,7 @@ if header:
 			hex_bytes += " "+ hex_str[i]
 		else:
 			hex_bytes += hex_str[i]
-	print(f"Header Bytes: {hex_bytes}")
+	print(f"[+] Header Bytes: {hex_bytes}")
 	with open("magic.txt", "r") as f:
 		lines = f.readlines()
 	for i in lines:
@@ -50,10 +50,10 @@ if header:
 		if t:
 			break
 	if t:
-		print(f"Magic Header Type: {spl[1]}")
-		print(f"Description (Magic Header [{spl[1]}]): {spl[2].strip()}")
+		print(f"[+] Magic Header Type: {spl[1]}")
+		print(f"[+] Description (Magic Header [{spl[1]}]): {spl[2].strip()}")
 	else:
-		print(f"Couldn't detect file type with magic headers.")
+		print(f"[-] Couldn't detect file type with magic headers.")
 else:
-	print("Failed to retrieve header bytes.")
+	print("[-] Failed to retrieve header bytes.")
 
