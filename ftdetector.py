@@ -1,4 +1,8 @@
 import re
+import hashlib
+import requests
+import json
+import random
 
 def main(file,num_bytes):
 	with open(file,'rb') as f:
@@ -17,10 +21,26 @@ def extmatch(file):
 	else:
 		print(f"[-] File Extension: Unable to Detect File Extension")
 
+def sha256_file(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+def md5_file(path):
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
 name=input("Enter file name: ")
 hl = 40
 ext=extmatch(name)
 
+sha256hash = sha256_file(name)
+md5hash = md5_file(name)
 
 header = main(name, hl)
 
@@ -49,6 +69,10 @@ if header:
 		t = re.findall(regex, hex_str)
 		if t:
 			break
+	if sha256hash:
+        	print("[+] SHA256 hash: ", sha256hash)
+	if md5hash:
+        	print("[+] MD5 hash: ", md5hash)
 	if t:
 		print(f"[+] Magic Header Type: {spl[1]}")
 		print(f"[+] Description (Magic Header [{spl[1]}]): {spl[2].strip()}")
@@ -57,3 +81,30 @@ if header:
 else:
 	print("[-] Failed to retrieve header bytes.")
 
+def virustotal_check():
+	url = f"https://www.virustotal.com/api/v3/files/{sha256hash}"
+	api=""
+	with open('virustotalapi.txt','r') as f:
+		api = f.read().strip()
+	if api=="":
+		print(f"[-] You have not provided virustotal api key in virustotalapi.txt.")
+		exit()
+	headers = {"accept": "application/json", "X-Apikey": api}
+	response = requests.get(url, headers=headers)
+	data = response.json()
+	print("[+] VirusTotal Information\n")
+	print(json.dumps(data, indent=4))
+	print("")
+	vcheck = input("Do you want to save virustotal response in a file? (Y/n): ")
+	if vcheck.lower()=='y' or vcheck == "1" or vcheck == "yes":
+		print()
+		fname = f"{name}-{random.randint(000000000000,999999999999)}.json"
+		with open(fname, 'w') as f:
+			w = f.write(json.dumps(data, indent=4))
+			f.close()
+		print(f"[+] Saved as {fname}")
+print()
+vcheck = input("Do you want to run a virustotal check? (Y/n): ")
+if vcheck.lower()=='y' or vcheck == "1" or vcheck == "yes":
+	print()
+	virustotal_check()
