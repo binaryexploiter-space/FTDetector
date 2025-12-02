@@ -44,7 +44,8 @@ if header:
 		if t:
 			break
 	if t:
-		print(f"Magic Header Type: {spl[1].strip()}")
+		print(f"Magic Header Type: {spl[1]}")
+		print(f"Description (Magic Header [{spl[1]}]): {spl[2].strip()}")
 	else:
 		print(f"Couldn't detect file type with magic headers.")
 else:
