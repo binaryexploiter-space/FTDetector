@@ -241,3 +241,4 @@ E00100EA||Ion (serialization format) binary encoding
 4153544d2d453537|e57|ASTM E57 3D file format
 aaaaaaaa|sys|Crowdstrike Channel File
 4D4C5649|MLV|Magic Lantern Video file
+50450000|.exe, .dll, .sys, .ocx, .cpl|Windows Portable Executable files (used for executables, libraries, drivers, and system components)
