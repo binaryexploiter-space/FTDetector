@@ -18,7 +18,7 @@ def extmatch(file):
 		print(f"Couldn't Detect File Extension.")
 
 name=input("Enter file name: ")
-hl = 30
+hl = 35
 ext=extmatch(name)
 
 
@@ -40,7 +40,13 @@ if header:
 	for i in lines:
 		spl = i.split("|")
 		reg = str(f"^{spl[0].lower()}")
-		t = re.findall(reg, hex_str)
+		regex=''
+		for m in reg:
+			if m=='?':
+				regex+='.'
+			else:
+				regex+=m
+		t = re.findall(regex, hex_str)
 		if t:
 			break
 	if t:
