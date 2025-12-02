@@ -1,4 +1,8 @@
 FFD8FFE0|jpg|JPEG raw or in the JFIF or Exif file format
+FFD8FFDB|jpg/jpeg|JPEG raw or in the JFIF or Exif file format
+FFD8FFE000104A4649460001|jpg/jpeg|JPEG raw or in the JFIF or Exif file format
+FFD8FFEE|jpg/jpeg|JPEG raw or in the JFIF or Exif file format
+FFD8FFE1|jpg/jpeg|JPEG raw or in the JFIF or Exif file format
 89504E470D0A1A0A|png|Image encoded in the Portable Network Graphics format
 5A4D|exe|DOS ZM executable and its descendants (rare)
 2321||Script or data to be passed to the program following the shebang (#!)
@@ -40,3 +44,41 @@ BEBAFECA|DBA|Palm Desktop Calendar Archive
 425A68|bz2|Compressed file using Bzip2 algorithm
 474946383761|gif|Image file encoded in the Graphics Interchange Format (GIF) [GIF87a]
 474946383961|gif|Image file encoded in the Graphics Interchange Format (GIF) [GIF89a]
+49492A00|tif/tiff|Tagged Image File Format (TIFF) [little-endian]
+4D4D002A|tif/tiff|Tagged Image File Format (TIFF) [big-endian]
+49492A00100000004352|cr2|Canon RAW Format Version 2 Canon's RAW format is based on TIFF.
+667479706372784352|cr3|Canon RAW Format Version 3
+802A5FD7|cin|Kodak Cineon image
+0000000C6A5020200D0A870A|jp2/j2k/jpf/jpm/jpg2/j2c/jpc/jpx/mj2|JPEG 2000 format
+FF4FFF51|jp2/j2k/jpf/jpm/jpg2/j2c/jpc/jpx/mj2|JPEG 2000 format
+4C5A4950|lz|Lzip compressed file
+303730373031|cpio|cpio "new" ASCII archive file
+303730373032|cpio|cpio ASCII archive file with crc
+303730373037|cpio|cpio ASCII archive file
+4D5A|exe/dll/mui/sys/scr/cpl/ocx/ax/iec/ime/rs/tsp/fon/efi|DOS MZ executable and its descendants (including NE and PE)
+534D534E46323030|ssp|SmartSniff Packets File
+5A4D|exe|DOS ZM executable and its descendants (rare)
+504B0304|zip/aar/apk/docx/epub/ipa/jar/kmz/maff/msix/odp/ods/odt/pk3/pk4/pptx/usdz/vsdx/xlsx/xpi/whl|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML
+504B0506|zip/aar/apk/docx/epub/ipa/jar/kmz/maff/msix/odp/ods/odt/pk3/pk4/pptx/usdz/vsdx/xlsx/xpi/whl|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML (empty archive)
+504B0708|zip/aar/apk/docx/epub/ipa/jar/kmz/maff/msix/odp/ods/odt/pk3/pk4/pptx/usdz/vsdx/xlsx/xpi/whl|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML (spanned archive)
+526172211A0700|rar|Roshal ARchive compressed archive v1.50 onwards
+526172211A070100|rar|Roshal ARchive compressed archive v5.00 onwards
+7F454C46|none, .axf, .bin, .elf, .o, .out, .prx, .puff, .ko, .mod, .so|Executable and Linkable Format
+0E031301|hdf4/h4|Data stored in version 4 of the Hierarchical Data Format.
+894844460D0A1A0A|hdf5/h5|Data stored in version 5 of the Hierarchical Data Format.
+C9|com|CP/M 3 and higher with overlays
+CAFEBABE|class|Java class file, Mach-O Fat Binary
+EFBBBF|txt/others|UTF-8 byte order mark, commonly seen in text files.
+FFFE0000|txt/others|UTF-32LE byte order mark for text
+FEFF|txt/others|UTF-16BE byte order mark, commonly seen in text files.
+FFFE|txt/others|UTF-16LE byte order mark, commonly seen in text files.
+0000FEFF|txt/others|UTF-32BE byte order mark for text
+2B2F7638||UTF-7 byte order mark for text
+2B2F7639||UTF-7 byte order mark for text
+2B2F762B||UTF-7 byte order mark for text
+2B2F762F||UTF-7 byte order mark for text
+0EFEFF|txt/others|SCSU byte order mark for text
+DD736673||UTF-EBCDIC byte order mark for text
+255044462D|pdf|PDF document
+25215053|ps|PostScript document
+
