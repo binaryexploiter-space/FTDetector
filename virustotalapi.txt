@@ -1,1 +1,1 @@
-replacevirustotalapikeyhere
+replace_virustotal_api_key_here
