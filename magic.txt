@@ -56,6 +56,9 @@ FF4FFF51|jp2/j2k/jpf/jpm/jpg2/j2c/jpc/jpx/mj2|JPEG 2000 format
 303730373032|cpio|cpio ASCII archive file with crc
 303730373037|cpio|cpio ASCII archive file
 4D5A|exe/dll/mui/sys/scr/cpl/ocx/ax/iec/ime/rs/tsp/fon/efi|DOS MZ executable and its descendants (including NE and PE)
+4D5A50450000|exe, dll, sys, ocx, cpl|PE32 Executable (MZ + PE)
+FEEDFACE|macho|Mach-O Executable (32-bit)
+FEEDFACF|macho|Mach-O Executable (64-bit)
 534D534E46323030|ssp|SmartSniff Packets File
 5A4D|exe|DOS ZM executable and its descendants (rare)
 504B0304|zip/aar/apk/docx/epub/ipa/jar/kmz/maff/msix/odp/ods/odt/pk3/pk4/pptx/usdz/vsdx/xlsx/xpi/whl|zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML
@@ -245,3 +248,10 @@ E00100EA||Ion (serialization format) binary encoding
 aaaaaaaa|sys|Crowdstrike Channel File
 4D4C5649|MLV|Magic Lantern Video file
 50450000|.exe, .dll, .sys, .ocx, .cpl|Windows Portable Executable files (used for executables, libraries, drivers, and system components)
+52494646????????57415645|wav|Waveform Audio File Format
+52494646????????41564920|avi|Audio Video Interleave video format
+38425053|psd|Photoshop Document file, Adobe Photoshop's native file format
+4F676753|ogg, oga, ogv|Ogg, an open source media container format
+2453444930303031|wim, swm, esd|System Deployment Image, a disk image format used by Microsoft 
+3026B2758E66CF11A6D900AA0062CE6C|asf, wma, wmv|Advanced Systems Format
+451AA3DF|mkv, mk3d, mka, webm|Matroska / EBML Container
