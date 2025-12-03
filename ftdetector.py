@@ -15,11 +15,12 @@ def extmatch(file):
 		if t=='.':
 			ext = name[0:i]
 			break
-	if t:
+	if '.' in name:
 		print(f"[+] File Extension: {ext[-1::-1]}")
 		return f"{ext[-1::-1]}"
 	else:
 		print(f"[-] File Extension: Unable to Detect File Extension")
+		return 0;
 
 def sha256_file(path):
     h = hashlib.sha256()
