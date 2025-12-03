@@ -255,3 +255,9 @@ aaaaaaaa|sys|Crowdstrike Channel File
 2453444930303031|wim, swm, esd|System Deployment Image, a disk image format used by Microsoft 
 3026B2758E66CF11A6D900AA0062CE6C|asf, wma, wmv|Advanced Systems Format
 451AA3DF|mkv, mk3d, mka, webm|Matroska / EBML Container
+4D546864|mid, midi|MIDI sound file
+05070000424F424F0507000000000000000000000001|cwk|AppleWorks 5 document
+0607E100424F424F0607E10000000000000000000001|cwk|AppleWorks 6 document
+455202000000|toast|Roxio Toast disc image file
+8B455202000000|toast|Roxio Toast disc image file
+04224D18|lz4|LZ4 Frame Format. Remark: LZ4 block format does not offer any magic bytes.
