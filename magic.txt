@@ -84,6 +84,9 @@ DD736673||UTF-EBCDIC byte order mark for text
 495453460300000060000000|chm|MS Windows HtmlHelp Data
 3F5F|hlp|Windows 3.x/95/98 Help file
 494433|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+FFFB|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+FFF3|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+FFF2|mp3|MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
 4344303031|iso|ISO9660 CD/DVD image file
 424D|bmp/dib|BMP file, a bitmap format used mostly in the Windows world
 4344303031|cdi|CD-i CD image file
