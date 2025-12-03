@@ -261,3 +261,4 @@ aaaaaaaa|sys|Crowdstrike Channel File
 455202000000|toast|Roxio Toast disc image file
 8B455202000000|toast|Roxio Toast disc image file
 04224D18|lz4|LZ4 Frame Format. Remark: LZ4 block format does not offer any magic bytes.
+3c3f706870|php|Hypertext Preprocessor Language
